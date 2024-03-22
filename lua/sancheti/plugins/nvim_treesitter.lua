@@ -15,15 +15,25 @@ return {
       treesitter.setup({ -- enable syntax highlighting
         highlight = {
           enable = true,
+          disable = {
+            "markdown",
+            "query",
+          },
         },
         -- enable indentation
-        indent = { enable = true },
+        indent = {
+          enable = true
+        },
         -- enable autotagging (w/ nvim-ts-autotag plugin)
         autotag = {
           enable = true,
         },
         -- ensure these language parsers are installed
         ensure_installed = {
+          "lua",
+          "vim",
+          "vimdoc",
+          "query",
           "gitignore",
           "c",
           "java",
