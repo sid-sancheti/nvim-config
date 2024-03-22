@@ -7,7 +7,7 @@ return {
     local lualine = require("lualine")
     lualine.setup({
       options = {
-        icons_enabled = true,
+        icons_enabled = false,
         theme = "gruvbox",
         component_separators = '|',
         section_separators = '',
