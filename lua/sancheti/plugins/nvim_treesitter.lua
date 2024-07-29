@@ -37,6 +37,13 @@ return {
           "gitignore",
           "c",
           "java",
+          "rust",
+          "javascript",
+          "json",
+          "yaml",
+          "toml",
+          "html",
+          "css",
         },
         incremental_selection = {
           enable = true,
