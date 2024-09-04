@@ -44,6 +44,7 @@ return {
           "toml",
           "html",
           "css",
+          "r",
         },
         incremental_selection = {
           enable = true,
