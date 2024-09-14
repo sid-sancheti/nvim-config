@@ -10,7 +10,7 @@ return {
 
     nvimtree.setup({
       view = {
-        width = 35,
+        width = 30,
         relativenumber = true,
       },
       -- change folder arrow icons
@@ -27,9 +27,7 @@ return {
           },
         },
       },
-      -- disable window_picker for
-      -- explorer to work well with
-      -- window splits
+      -- disable window_picker for explorer to work well with window splits
       actions = {
         open_file = {
           window_picker = {
