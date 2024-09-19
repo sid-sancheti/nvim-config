@@ -7,16 +7,13 @@ vim.api.nvim_exec([[
 ]], false)
 
 -- Set the number of spaces that <Tab> in the file counts for
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 
 -- Set the autoindent table length
-vim.opt.shiftwidth = 2
-
--- Expand all tabs with spaces
-vim.opt.expandtab = true
+vim.opt.shiftwidth = 4
 
 -- Number of lines always visible for the top and bottom
-vim.opt.scrolloff = 12
+vim.opt.scrolloff = 10
 
 -- Will highlight the nth column in all .h and .c files
 vim.api.nvim_exec([[
