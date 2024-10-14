@@ -6,6 +6,9 @@ vim.api.nvim_exec([[
 	set number relativenumber
 ]], false)
 
+-- Expand tabs to spaces
+vim.opt.expandtab = true
+
 -- Set the number of spaces that <Tab> in the file counts for
 vim.opt.tabstop = 4
 
